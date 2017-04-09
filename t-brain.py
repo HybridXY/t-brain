@@ -277,7 +277,7 @@ class Gui(QMainWindow):
 	def scan_files(self,btn):
 		if btn.text() == "ANIMAL":
 			self.greeting.setStyleSheet("border:5px solid pink;background:pink;color:teal;font-size:30px")
-			with open("animal.txt","r") as rf:
+			with open("test_file_animal.txt","r") as rf:
 				self.joke = ""
 				rf.seek(self.animal_file_seeker)
 				for x in  range(2):
@@ -293,7 +293,7 @@ class Gui(QMainWindow):
 
 		if btn.text() == "YO MAMMA":
 			self.greeting.setStyleSheet("border:5px solid pink;background:pink;color:teal;font-size:30px")
-			with open("yo_mamma.txt","r") as rf:
+			with open("test_file_yo_mamma.txt","r") as rf:
 				self.joke = ""
 				rf.seek(self.yo_mamma_file_seeker)
 				for x in range(2):
@@ -309,7 +309,7 @@ class Gui(QMainWindow):
 
 		if btn.text() == "DIRTY":
 			self.greeting.setStyleSheet("border:5px solid pink;background:pink;color:teal;font-size:30px")
-			with open("dirty.txt","r") as rf:
+			with open("test_file_dirty.txt","r") as rf:
 				self.joke = ""
 				rf.seek(self.dirty_file_seeker)
 				for x in range(2):
@@ -325,7 +325,7 @@ class Gui(QMainWindow):
 
 		if btn.text() == "BLONDE":
 			self.greeting.setStyleSheet("border:5px solid pink;background:pink;color:teal;font-size:30px")
-			with open("blonde.txt","r") as rf:
+			with open("test_file_blonde.txt","r") as rf:
 				self.joke = ""
 				rf.seek(self.blonde_file_seeker)
 				for x in range(2):
@@ -341,7 +341,7 @@ class Gui(QMainWindow):
 
 		if btn.text() == "BLUE COLLAR":
 			self.greeting.setStyleSheet("border:5px solid pink;background:pink;color:teal;font-size:30px")
-			with open("bluecollar.txt","r") as rf:
+			with open("test_file_bluecollar.txt","r") as rf:
 				self.joke = ""
 				rf.seek(self.bluecollar_file_seeker)
 				for x in range(2):
